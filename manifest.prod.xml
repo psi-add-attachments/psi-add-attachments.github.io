@@ -7,7 +7,7 @@
   <Version>1.0.0.4</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Guardar archivos adjuntos"/>
+  <DisplayName DefaultValue="Guardar archivos adjuntos BETA"/>
   <Description DefaultValue="Complemento para guardar los archivos adjuntos en Sharepoint"/>
   <IconUrl DefaultValue="https://psi-add-attachments.github.io/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://psi-add-attachments.github.io/assets/icon-80.png"/>
