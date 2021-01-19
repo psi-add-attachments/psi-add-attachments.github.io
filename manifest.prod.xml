@@ -9,14 +9,14 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Guardar archivos adjuntos"/>
   <Description DefaultValue="Complemento para guardar los archivos adjuntos en Sharepoint"/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+  <IconUrl DefaultValue="https://psi-add-attachments.github.io/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://psi-add-attachments.github.io/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://login.microsoftonline.com</AppDomain>
     <AppDomain>https://device.login.microsoftonline.com</AppDomain>
     <AppDomain>https://autologon.microsoftazuread-sso.com</AppDomain>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://psi-add-attachments.github.io</AppDomain>
     <AppDomain>https://graph.microsoft.com</AppDomain>
   </AppDomains>
   <Hosts>
@@ -30,7 +30,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://www.contoso.com/taskpane.html"/>
+        <SourceLocation DefaultValue="https://psi-add-attachments.github.io/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -92,13 +92,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://psi-add-attachments.github.io/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://psi-add-attachments.github.io/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://psi-add-attachments.github.io/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://psi-add-attachments.github.io/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://psi-add-attachments.github.io/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
@@ -148,13 +148,13 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://psi-add-attachments.github.io/assets/icon-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://psi-add-attachments.github.io/assets/icon-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://psi-add-attachments.github.io/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://psi-add-attachments.github.io/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://psi-add-attachments.github.io/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GetStarted.Title" DefaultValue="Guardar archivos adjuntos"/>
@@ -168,7 +168,7 @@
       </Resources>
       <WebApplicationInfo>
         <Id>58abebad-1c94-423a-897d-8000ab87cf9a</Id>
-        <Resource>api://localhost:3000/58abebad-1c94-423a-897d-8000ab87cf9a</Resource>
+        <Resource>api://psi-add-attachments.github.io/58abebad-1c94-423a-897d-8000ab87cf9a</Resource>
         <Scopes>
           <Scope>openid</Scope>
           <Scope>email</Scope>
