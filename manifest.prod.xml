@@ -5,7 +5,7 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>845a55aa-2d1c-4da9-bda3-2d621940f07e</Id>
   <Version>1.0.0.4</Version>
-  <ProviderName>Contoso</ProviderName>
+  <ProviderName>Raona</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Guardar archivos adjuntos BETA"/>
   <Description DefaultValue="Complemento para guardar los archivos adjuntos en Sharepoint"/>
