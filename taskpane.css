@@ -82,5 +82,4 @@ b {
 .btnText {
     overflow: hidden;
     text-overflow: ellipsis;
-    justify-content: start !important;
 }
