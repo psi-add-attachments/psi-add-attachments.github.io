@@ -78,3 +78,9 @@
 b {
     font-weight: bold;
 }
+
+.btnText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: start !important;
+}
